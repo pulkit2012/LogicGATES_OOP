@@ -35,7 +35,7 @@ public class NOTGate {
 
 
     public void printTruthTable() {
-        System.out.println("----Truth Table For OR Gate----");
+        System.out.println("----Truth Table For NOT Gate----");
         for (int i = 0; i <= 1; i++) {
             System.out.print("NOT " + i + " results ");
                 NOTGate my = new NOTGate(i);
